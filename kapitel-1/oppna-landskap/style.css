@@ -1,0 +1,26 @@
+body{
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    margin-left: 300px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 100px;
+    color: gold;
+}
+p{
+    font-family: "Handjet", sans-serif;
+    font-size: 20px;
+    background-color: rgba(247, 0, 255, 0.244);
+    width: 450px;
+    padding: 10px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+img{
+    margin-left: 350px;
+}
+a{
+
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+body {
+    background-image: url("./bilder/wim-van-t-einde-_rm0DueNGfE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 7px 7px 2px #940000;
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 60px 5px 10px #ff00bb;
+    margin-top: 60px;
+}
+
+p {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 950px;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.648);
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    border: 2px solid #670a0a;
+    border-radius: 7px;
+}

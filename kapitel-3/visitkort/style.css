@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Matemasie&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: chocolate;
+}
+div{
+    background-image: url("./bilder/daniel-gregoire-tkr3hrDxdRk-unsplash.jpg");
+    width: 500px;
+    height: 350px;
+    background-position: -50px 0;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    padding-left: 270px;
+    border-radius: 20px;
+    box-shadow: 40px 20px 100000px #00eaff;
+}
+h1{
+    font-family: "Matemasie", sans-serif;
+    font-size: 70px;
+    color:tomato;
+}
+h2{
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 45px;
+    color:deeppink ;
+}
+p{
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 25px;
+    color: azure;
+}

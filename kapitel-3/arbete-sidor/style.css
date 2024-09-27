@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ahhhhhhhhhhh */
+body.blood{
+    background-image: url("./vilder/geometric-pattern-2816162_640.jpg");
+}
+body.pain{
+    background-image: url("./vilder/template-1889981_640.jpg");
+}
+body.horror{
+    background-image: url("./vilder/white-yellow-gold-7485311_640.jpg");
+}
+body.guts{
+    background-image: url("./vilder/pattern-1989611_640.jpg");
+}
+body.death{
+    background-image: url("./vilder/i6crqeluf9491.jpg");
+}
+body.knife{
+    background-image: url("./vilder/october-31-halloween-7531371_640.jpg");
+}
+div{
+    margin:auto;
+    background-color: #fff;
+    width: 400px;
+    border: 20px ridge crimson;
+    margin-top: 150px;
+    padding: 20px;
+    /* border-radius: 100px; */
+}
+h1{
+    font-family: "Homemade Apple", cursive;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    font-size: 70px;
+    color: chartreuse;
+    font-weight: bolder;
+}

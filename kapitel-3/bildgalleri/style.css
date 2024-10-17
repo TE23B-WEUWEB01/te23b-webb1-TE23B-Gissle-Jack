@@ -1,0 +1,25 @@
+body{
+    background-image: url("./bilder/27410471634-20aa91b309-o.webp");
+}
+div.kontainer{
+    width: 800px;
+    font-family: "Press Start 2P", system-ui;
+    padding: 40px;
+}
+h1{
+    
+}
+h2{
+
+}
+div.box{
+    background-color: #000;
+    padding: 40px;
+}
+img{
+    width: 100%;
+}
+p{
+    font-family: "Orbitron", sans-serif;
+    color: aliceblue;
+}

@@ -1,3 +1,13 @@
+:root{
+--russian-violet: #241e4eff;
+--penn-red: #960200ff;
+--burnt-sienna: #ce6c47ff;
+--sunglow: #ffd046ff;
+--vanilla: #eadaa2ff;
+}
+
+
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -11,7 +21,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 body{
-    
+    background-color: var(--penn-red);
 }
 div.back{
     background-color: greenyellow;

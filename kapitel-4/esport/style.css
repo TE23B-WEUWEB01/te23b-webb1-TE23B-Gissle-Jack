@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Press+Start+2P&display=swap');
+
+/* Layout */
+body{
+    background-color: #9264c7;
+}
+.kontainer{
+    font-family: "Press Start 2P", serif;
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #e3dbf1;
+}
+.box{
+
+}
+
+/* headers */
+h1{
+    font-family: "Kablammo", system-ui;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+h2{
+
+}
+
+/* contents */
+img{
+    width: 100%;
+}
+p{
+
+}
+.quartz
+{
+
+}
+a{
+
+}

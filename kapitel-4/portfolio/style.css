@@ -1,0 +1,65 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: blue;
+}
+.container{
+    background-color: aquamarine;
+    margin: 5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+.kontainer{
+    background-color: aquamarine;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+.colums{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    background-color: blueviolet;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: dashed 5px palevioletred;
+    width: 40%;
+}
+
+/* Headers */
+h2{
+    padding-left: 45%;
+}
+
+/*contanats*/
+p{
+    margin-bottom: 5px;
+}
+a{
+    color:darkblue;
+    text-decoration: none;
+}
+img{
+    width: 60%;
+    border-radius: 2px;
+    border: groove red 2px;
+}

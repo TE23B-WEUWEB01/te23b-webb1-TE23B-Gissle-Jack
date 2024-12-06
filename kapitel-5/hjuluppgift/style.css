@@ -20,40 +20,93 @@ body{
     margin: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 10px 40px 100px;
     border-radius: 10px;
 }
 
-.kontainer ul {
-    font-family: "Oswald", sans-serif;
+.kontainer .flex {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 0 20px;
+    /* padding: 0 20px; */
+}
+.kontainer div.flex {
+    gap: 10px;
 }
 
 .kontainer .button {
     text-decoration: none;
-    color: #ff0000;
-    background-color: #a8a9a5;
+    color: #ffaa00;
+    background-color: #f02b08;
+    padding: 10px;
+    border-radius: 3px;
+    width: 150px;
+    display: inline-block;
+    box-shadow: 3px 3px 0 #595959;
+    text-align: center;
+    font-size: 25px;
+}
+.kontainer .button:hover{
+    text-decoration: none;
+    color: #bb7f07;
+    background-color: #3a0a02;
     padding: 10px;
     border-radius: 3px;
     width: 140px;
     display: inline-block;
     box-shadow: 3px 3px 0 #595959;
     text-align: center;
+    font-size: 25px;
 }
-
+.kontainer h1{
+    text-align: center;
+    font-size: 60px;
+}
+.kontainer h2{
+    font-size: 25px;
+    text-align: center;
+}
+.kontainer h3{
+    font-size: 40px;
+}
+.kontainer img{
+    margin-left: 150px;
+    border-radius: 20px;
+    box-shadow: #430000 5px 10px 5px;
+    margin-bottom: 20px;
+}
+.kontainer .box{
+    background-color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: #ff0000 2px solid;
+    margin-bottom: 10px;
+}
+.kontainer .box p{
+    margin: 10px 0;
+}
+.kontainer p{
+    
+}
+.kontainer ul {
+    padding-left: 20px;
+}
+.kontainer ul li{
+    margin: 5px;
+}
 .kontainer figure {
-    width: 80%;
+    width: 45%;
     background-color: #FFF;
     padding: 20px;
-    margin: 10px auto;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: #ff0000 5px solid;
 }
 .kontainer figure img {
+    margin: 0;
     width: 100%;
+    box-shadow: azure 0px 0px 0px ;
 }
 .kontainer figcaption{
 

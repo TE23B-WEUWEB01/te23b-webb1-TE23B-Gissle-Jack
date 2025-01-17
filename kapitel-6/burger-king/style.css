@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Modak&family=Press+Start+2P&display=swap');
+
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -19,14 +22,71 @@ burg bgc = #F5EBDC
 
 /* format */
 body{
-
+    background-color: #FBF7F1;
 }
-.kontainer{}
+.kontainer{
+    width: 1200px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* sidhuvud */
-.sidhuvud{}
-.sidhuvud .meny{}
-.sidhuvud .meny a{}
-.sidhuvud .erbjudande{}
+.sidhuvud{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: darkorange 5px dotted;
+}
+.sidhuvud .meny{
+    padding: 10px;
+}
+.sidhuvud .meny a{
+    text-decoration: none;
+    color: #502313;
+    padding: 10px;
+}
+.sidhuvud .erbjudande{
+    text-decoration: none;
+    color: #CC2200;
+    padding: 10px;
+    border: 3px solid #CC2200;
+    border-radius: 10px;
+}
 
 /* sid inerhåll */
+
+.inerhall{}
+.inerhall h2{
+    font-weight: 400;
+    font-size: 200px;
+}
+.inerhall .kolumner-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.inerhall .kolumner-3 .burgare{
+    background-color: #F5EBDC;
+    border-radius: 40px;
+    text-align: center;
+    padding: 30px;
+    height: 200px;
+    transition-duration: 40s;
+    cursor: pointer;
+}
+.inerhall .kolumner-3 .burgare:hover{
+    transition-duration: 10s;
+    height: 100%;
+    background-color: peru;
+}
+.inerhall .kolumner-3 .burgare img{
+    width: 100%;
+}
+.inerhall .kolumner-3 .burgare .korv{
+    margin-bottom: 65px;
+}
+.inerhall .kolumner-3 .burgare p{
+    font-size: 25px;
+}

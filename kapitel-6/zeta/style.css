@@ -1,0 +1,83 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* layout */
+body{
+    background-color: #FBF7F1;
+}
+.kontainer{
+    width: 1200px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* sidhuvud */
+.kontainer .sidhuvud{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.kontainer .sidhuvud a{
+    padding: 10px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+.kontainer .sidhuvud img{
+    width: 20%;
+    padding: 10px;
+}
+
+/* inerhåll */
+.kontainer .inerhall{
+    width: 1100px;
+    background-color: #aa8585;
+    margin: auto;
+    padding: 20px;
+}
+.kontainer .inerhall h2{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+}
+.kontainer .inerhall p{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.kontainer .inerhall .kolumner-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.kontainer .inerhall .kolumner-4 .recept{
+    background-color: #F5EBDC;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition-duration: 1s;
+}
+.kontainer .inerhall .kolumner-4 .recept:hover{
+   box-shadow: yellow 10px 10px 0;
+   transition-duration: 50ms;
+}
+.kontainer .inerhall .kolumner-4 .recept img{
+    width: 100%;
+}
+.kontainer .inerhall .kolumner-4 .recept p{
+    width: 100%;
+}

@@ -72,8 +72,8 @@ body{
     transition-duration: 1s;
 }
 .kontainer .inerhall .kolumner-4 .recept:hover{
-   box-shadow: yellow 10px 10px 0;
-   transition-duration: 50ms;
+   box-shadow: orange 10px 10px 0;
+   transition-duration: 1s;
 }
 .kontainer .inerhall .kolumner-4 .recept img{
     width: 100%;

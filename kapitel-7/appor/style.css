@@ -1,0 +1,48 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img{
+width:100%;
+}
+
+/* sidan */
+body{}
+.kontainer{}
+
+/* sidhuvud */
+header{}
+header h1{}
+header h2{}
+
+/* meny */
+header nav{}
+header nav a{}
+header nav a:hover{}
+header nav a:active{}
+
+/* inerhåll */
+main{}
+main h3{}
+
+/* figure */
+main figure{}
+main figure img{}
+main figure figcaption{}
+main p{}
+
+/* sidofält */
+aside{}
+aside h4{}
+aside p{}
+
+/* sidfot */
+footer{}
+footer p{}

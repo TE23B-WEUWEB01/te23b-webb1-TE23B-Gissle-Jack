@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -14,12 +17,50 @@ width:100%;
 }
 
 /* sidan */
-body{}
-.kontainer{}
+body{
+    background-image: url("./bilder/jr-korpa--AsMlld5e2I-unsplash\ \(1\).jpg");
+    border-image-width: 100%;
+    font-family: "Jacquarda Bastarda 9", serif;
+}
+.kontainer{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+/* bygga layouten */
+.kontainer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    background-color:deeppink;
+}
+main{
+    grid-area: main;
+    background-color: blue;
+}
+aside{
+    grid-area: aside;
+    background-color: chartreuse;
+}
+footer{
+    grid-area: footer;
+    background-color: cyan;
+}
 
 /* sidhuvud */
-header{}
-header h1{}
+header{
+    color: #fff;
+}
+header h1{
+    font-size: 80px;
+}
 header h2{}
 
 /* meny */
@@ -29,14 +70,15 @@ header nav a:hover{}
 header nav a:active{}
 
 /* inerhåll */
-main{}
-main h3{}
+main {}
+main article {}
+main article h3{}
 
 /* figure */
-main figure{}
-main figure img{}
-main figure figcaption{}
-main p{}
+main article figure{}
+main article figure img{}
+main article figure figcaption{}
+main article p{}
 
 /* sidofält */
 aside{}

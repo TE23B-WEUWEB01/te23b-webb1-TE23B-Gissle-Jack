@@ -1,6 +1,7 @@
 /* style for only index */
 .wanderer{
     background-color: #000;
+    color: white;
 }
 .wanderer .vimio{
     position: fixed;
@@ -22,4 +23,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
+}
+
+.wanderer main{
+    /* CSS-trick för vertical centering */
+    display: grid;
+    align-items: center;
+}
+
+/* Europa layout */
+.europa{}
+.eupropa h1{
+    color: cyan;
+}
+.eupropa header nav a{
+    color: cyan;
+}
+.eupropa header nav a:hover, .eupropa header nav a.active{
+    border-bottom: cyan 3px solid;
 }

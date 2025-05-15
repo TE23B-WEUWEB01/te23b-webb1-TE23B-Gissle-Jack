@@ -1,0 +1,18 @@
+.kontainer{
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: #d20e0e;
+}
+
+.kolumn-2{
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+input, button{
+    gap: 10px;
+    min-width: 50px;
+}
